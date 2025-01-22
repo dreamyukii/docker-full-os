@@ -11,7 +11,8 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 -y copr enable ublue-os/staging 
-dnf5 install -y souk 
+dnf5 -y copr enable zeno/scrcpy 
+dnf5 install -y souk scrcpy
 
 # Use a COPR Example:
 #

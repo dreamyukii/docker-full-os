@@ -10,9 +10,9 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf group install -y kde-desktop-environment \
-    plymouth \
-    plymouth-system-theme \
+dnf group install -y "KDE Plasma Workspaces" 
+
+dnf install -y plymouth plymouth-system-theme 
 
 
 # Use a COPR Example:

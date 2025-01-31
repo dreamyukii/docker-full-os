@@ -1,4 +1,4 @@
-FROM quay.io/centos-bootc/centos-bootc:10
+FROM quay.io/centos-bootc/centos-bootc:10-stream10
 
 COPY build.sh /tmp/build.sh
 

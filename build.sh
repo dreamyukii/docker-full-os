@@ -19,4 +19,4 @@ dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noar
 
 dnf group install -y "KDE Plasma Workspaces" 
 
-dnf install -y plymouth plymouth-system-theme neofetch
+dnf install -y plymouth plymouth-system-theme 

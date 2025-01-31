@@ -1,4 +1,4 @@
-FROM quay.io/almalinuxorg/almalinux-bootc:9.4
+FROM quay.io/centos-bootc/centos-bootc:10
 
 COPY build.sh /tmp/build.sh
 

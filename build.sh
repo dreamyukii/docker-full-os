@@ -15,7 +15,7 @@ dnf -y update
 
 dnf config-manager --set-enabled crb
 
-dnf install https://dl.fedoraproject.org/pub/epel/epel{,-next}-release-latest-9.noarch.rpm
+dnf install -y https://dl.fedoraproject.org/pub/epel/epel{,-next}-release-latest-9.noarch.rpm
 
 dnf group install -y "KDE Plasma Workspaces" 
 
